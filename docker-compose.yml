@@ -21,8 +21,8 @@ services:
         volumes:
             - cert_files:/etc/letsencrypt
         ports:
-            -   target: 80
-                published: 80
+            -   target: 8081
+                published: 8081
                 mode: host
             -   target: 443
                 published: 443

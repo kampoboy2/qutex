@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "chartjs-to-image": "^1.2.1",
     "eslint": "^7.32.0",
+    "migrate-mongo": "^10.0.0",
     "qutex_web": "file:services/ui",
     "react-dotenv": "^0.1.3"
   }
